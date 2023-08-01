@@ -13,21 +13,21 @@ const List = () => {
     }, [])
 
     return (
-        <>
+        <ul>
             {
                 chars.map((char) => {
                     return (
-                        <>
+                        <div id="card" key={char.id}>
                             <h1>{char.name}</h1>
                             <img src={char.image}></img>
                             <p>Gender: {char.gender}</p>
                             <p>Origin: {char.origin.name}</p>
                             <p>Status: {char.status}</p>
-                        </>
+                        </div>
                     )
                 })
             }
-        </>
+        </ul>
     )
 }
 

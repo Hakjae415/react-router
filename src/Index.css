@@ -56,11 +56,35 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: lightblue;
     color: white;
     text-align: center;
 }
 
 .link {
     margin: 10px
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+#card {
+    border: 1px solid #070707;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    height: 550px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; 
+    font-size: 22px;
+    margin: 0px;
 }
