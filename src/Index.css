@@ -50,3 +50,17 @@ body > div {
     background-color: lightslategrey;
     color: white;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.link {
+    margin: 10px
+}
